@@ -70,7 +70,7 @@
 * Arles Zhang | 雅思7.5 | AI编译优化与系统方向研究者
 * GitHub：[Arles GitHub](https://github.com/ArlesZhang/)
 * Medium：[Arles Medium](https://medium.com/@arles3427616237)
-* 邮箱：Arles3427616237@gmail.com
+* Mail：Arles3427616237@gmail.com
 
 ---
 
