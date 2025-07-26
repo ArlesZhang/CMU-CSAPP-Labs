@@ -7,8 +7,14 @@
 本项目为 CMU《深入理解计算机系统》（Computer Systems: A Programmer's Perspective, CSAPP）官方实验合集，旨在通过**系统底层实验训练**构建坚实的系统能力。
 
 ✅ **覆盖内容包括**：数据表示、缓存机制、目标代码生成、缓冲区溢出、动态内存分配、并发控制、网络服务器等底层系统核心原理。    
-✅ **参考书籍**：《算法导论》《操作系统概念》《计算机组成与设计-硬件/软件接口》《计算机网络-自顶向下的方法》      
+✅ **参考书籍**：《算法导论》《操作概念》《计算机组成与设计-硬件/软件接口》《计算机网络-自顶向下的方法》      
 ✅ **目标人群**：考研计算机系统复试、系统能力构建者、开源系统项目实践者、准备申请 USA/OMSCS/CS 方向研究生的学习者。
+
+**Contents include**: data represention,caching mechanisms ,target code generation,buffer overflow,dynamic memory allocation,concurrency control,network servers,and other core principles of underlying systems.
+
+**Reference Books**: The following courses are requisite for the program:”Intrduction to Algorirthms,Oprating Systems Concepts,Computer Organization and Design The Hard/Solfware Interface,Computer Networking A Top-Down Approach”
+
+**Target audience** : Those preparing for graduate school entrance exams in computer systems,systems builders,open source system project pracitioners,and learners perparing to apply for graduate programs in USA/OMSCS/CS.
 
 ---
 
