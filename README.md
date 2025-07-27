@@ -32,6 +32,18 @@
 | Proxy Lab  | 多线程代理服务器（并发 & 网络编程）              | 🔜 计划中 |
 | Shell Lab  | 简易 Shell 实现（fork, exec, I/O 重定向） | 🔜 计划中 |
 
+| Lab Name | Course Overview | State |
+| --- | --- | --- |
+| Data Lab | Bitwise Operations/Arithmetic Operations/Float-Point Represention Exercises | Doing |
+| Bomb | x86 Assembiy Reverse Engineering/Debugging/Disassembly | Planing |
+| Attack Lab | Buffer Overflow/ROR Attacks | Planing |
+| Buffer Lab | Stack Overflow Attack Principles and Defense | Planing |
+| Arch Lab | Mirco Architecture Simulation/Assembly line design and debugging | Planing |
+| Cach Lab | Cache Hit Rate anlysis and simulator Design | Planing |
+| Malloc Lab | Dynamic memory allocator Implementation (heap management) | Planing |
+| Proxy Lab | Multithreaded proxy server(concurrency & network programming) | Planing |
+| Shell Lab | Simple Shell Implementation (fork,excel,I/O redirection) | Planing |
+
 ---
 
 ## 项目目标
