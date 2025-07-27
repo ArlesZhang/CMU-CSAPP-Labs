@@ -32,6 +32,7 @@
 | Proxy Lab  | 多线程代理服务器（并发 & 网络编程）              | 🔜 计划中 |
 | Shell Lab  | 简易 Shell 实现（fork, exec, I/O 重定向） | 🔜 计划中 |
 
+## 📁 List of experiments (ongoing)
 | Lab Name | Course Overview | State |
 | --- | --- | --- |
 | Data Lab | Bitwise Operations/Arithmetic Operations/Float-Point Represention Exercises | Doing |
