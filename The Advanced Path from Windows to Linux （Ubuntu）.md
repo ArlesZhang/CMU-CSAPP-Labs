@@ -1,4 +1,4 @@
-## 5/8/2025 Ubuntu/Linux 学习笔记：从 Win11 转向 Ubuntu 的开始指南
+## DAY1 Ubuntu/Linux 学习笔记：从 Win11 转向 Ubuntu 的开始指南
 —— CSAPP & 顶会计划的系统性起点
 
 ### 背景：
@@ -122,5 +122,93 @@ cat access.log | grep "404" | sort | uniq -c | sort -nr
 3. 在MLIR/LLVM等编译器开发场景中，传统Unix文本流处理方式面对IR等结构化数据时是否显露出局限性？现代工具链（如jq/yq）如何弥补这些不足？
 
 ---
+
+## **DAY2 Ubuntu终极必备工具表（科研+开发极简版）**
+
+以下是根据你的AI编译器/嵌入式/分布式研究方向，结合高效开发与学术需求，优化后的 **终极推荐表格** ，已过滤冗余工具并强化关键组件：
+
+| **类别**         | **核心工具**               | **安装命令**                                                                 | **不可替代性说明**                      |
+|------------------|--------------------------|----------------------------------------------------------------------------|---------------------------------------|
+| **编译器基石**    | LLVM/MLIR/Clang         | `sudo apt install llvm-16 mlir-16-dev clang-16 lldb-16`                    | 所有编译器研究的底层基础                   |
+| **AI编译器**      | TVM (源码编译)           | `git clone --recursive https://github.com/apache/tvm && cd tvm && mkdir build && cmake ..` | 支持多后端部署优化                       |
+| **构建系统**      | CMake + Ninja           | `sudo apt install cmake ninja-build`                                       | 高效构建C++项目                        |
+| **性能剖析**      | Perf + Hotspot          | `sudo apt install linux-tools-$(uname -r) hotspot`                         | 火焰图生成/硬件计数器分析                 |
+| **Python环境**    | Miniconda + Mamba       | `wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh` | 隔离环境，比pip快10倍的依赖管理           |
+| **论文写作**      | Zotero + LaTeX          | `sudo snap install zotero`<br>`sudo apt install texlive-full`              | 文献管理+期刊级排版                      |
+| **开发IDE**       | VSCode + MLIR插件        | `sudo snap install code --classic`                                         | 官方MLIR语法高亮+远程开发                |
+| **终端效率**      | Zsh + OhMyZsh           | `sudo apt install zsh && sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"` | 自动补全/Git状态显示                    |
+| **版本控制**      | Git + GitLens           | `sudo apt install git`                                                     | 代码版本管理+VSCode增强                 |
+| **容器化**        | Docker + NVIDIA容器工具包 | `sudo apt install docker.io nvidia-container-toolkit`                      | 实验环境隔离+GPU穿透                    |
+| **知识管理**      | Obsidian                | [下载AppImage](https://obsidian.md)                                        | 双向链接笔记，适合技术文档沉淀             |
+
+**✅ 1. 补充实用但不喧宾夺主的“小工具”** 
+
+虽然你的目标是极简科研环境，但建议加上几个“低成本提升体验”的小工具：
+
+|工具|安装命令|用途|
+|---|---|---|
+|`flameshot`|`sudo apt install flameshot`|自定义截图，写文档 / 提问 / 反馈都更高效|
+|`gnome-tweaks`|`sudo apt install gnome-tweaks`|改快捷键、字体、主题、触控板等|
+|`nautilus-admin`|`sudo apt install nautilus-admin`|在文件管理器中右键“以管理员打开”|
+|`net-tools`|`sudo apt install net-tools`|启用 ifconfig/netstat 等传统命令|
+
+
+---
+
+### **关键优化说明**
+1. **LLVM版本选择**  
+   ```bash
+   # 添加官方源获取最新版
+   wget https://apt.llvm.org/llvm.sh && chmod +x llvm.sh && sudo ./llvm.sh 16
+   ```
+
+2. **TVM编译加速**  
+   ```bash
+   # 启用CUDA/LLVM支持
+   echo 'set(USE_CUDA ON)' >> build/config.cmake
+   echo 'set(USE_LLVM ON)' >> build/config.cmake
+   ```
+
+3. **科研增强配置**  
+   ```bash
+   # Jupyter Lab优化
+   pip install jupyterlab jupyter_contrib_nbextensions
+   ```
+
+---
+
+### **对比优势**
+| **维度**       | **本方案**                | **其他方案典型问题**               |
+|---------------|--------------------------|----------------------------------|
+| 编译器支持       | 官方LLVM源+MLIR开发头文件    | 系统仓库版本陈旧                    |
+| Python管理     | Mamba解决conda慢的问题      | 纯pip易导致依赖冲突                 |
+| 性能分析        | Hotspot可视化Perf数据       | 仅命令行工具不够直观                |
+| 可复现性        | Docker + 精确版本conda环境  | 全局安装易污染系统                  |
+| 知识沉淀        | Obsidian双向链接           | 普通Markdown工具难以建立知识网络     |
+
+---
+
+### **执行优先级**
+```mermaid
+pie
+    title 安装优先级
+    "LLVM/TVM工具链" : 35
+    "Miniconda环境" : 25
+    "Zotero+LaTeX" : 20
+    "Docker容器" : 15
+    "其他工具" : 5
+```
+
+建议立即执行的核心命令：
+```bash
+# 1. 基础底座
+wget https://apt.llvm.org/llvm.sh && sudo ./llvm.sh 16
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+
+# 2. 开发环境
+sudo apt install cmake ninja-build git docker.io
+sudo snap install code --classic
+```
+
 
 🌍Welcome follow my GitHub:https://github.com/ArlesZhang/
