@@ -1,9 +1,11 @@
-## DAY1 Ubuntu/Linux 学习笔记：从 Win11 转向 Ubuntu 的开始指南
+## DAY1 Ubuntu/Linux 学习笔记：从 Win11 转向 Ubuntu 的开始指南                                                             
 —— CSAPP & 顶会计划的系统性起点
 
 ### 背景：
 
-> **“我发现 Ubuntu 系统与 Win11 有很大的区别。为完成 CSAPP Labs 实验、快速上手 Ubuntu 系统，总结了该入门指南。”**
+> 1.**我发现 Ubuntu 系统与 Win11 有很大的区别。为完成 CSAPP Labs 实验、快速上手 Ubuntu 系统，总结了该入门指南。**
+> 
+> 2.**环境配置的流畅度**（尤其是**语言/网络一致性和工具链同步**）是高效工作的隐形基石。
 
 ---
 
