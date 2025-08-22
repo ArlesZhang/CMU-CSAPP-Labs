@@ -191,6 +191,13 @@ dnf [选项] <命令> [参数]
 
  [[Linux VS Unix  --Similarities and Differences]] 
 
+## Linux command line and bash scripting encyclopedia
+
+### Part I chapter 1
+
+2025.8.22 学习了该书的第一章至第三章 文件管理：cd ls touch cp ln | mv rm  | mkdir rmdir | cat more less
+
+
  ---
 
  🎗️Welcome to follow my GitHub : https://github.com/ArlesZhang/
