@@ -195,7 +195,7 @@ dnf [选项] <命令> [参数]
 
 ### Part I chapter 1
 
-2025.8.22 学习了该书的第一章至第三章 文件管理：cd ls touch cp ln | mv rm  | mkdir rmdir | cat more less
+2025.8.22 学习了该书的第一章至第三章 文件管理：cd ls touch cp ln | mv rm  | mkdir rmdir | cat more less tail head
 
 
  ---
