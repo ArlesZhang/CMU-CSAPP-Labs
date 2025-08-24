@@ -199,6 +199,12 @@ dnf [选项] <命令> [参数]
 
 ## Linux command line and bash scripting encyclopedia
 
+——该书能带来的是收益：掌握 Bash/sed/gawk 不是“只能用在 Linux”，而是获得了 一种通用的“文本驱动 & 批处理”思维，可以迁移到：
+- Windows（WSL2 / PowerShell）
+- 云计算平台（大多数容器、集群都跑 Linux）
+- 科研场景（自动化实验 → 复现实验 → 节省人力）
+- 个人效率（日常文件/数据处理）
+
 ### 2025.8.22 学习日志
 学习了该书的第一章至第三章 文件管理：cd ls touch cp ln | mv rm  | mkdir rmdir | cat more less tail head
 
